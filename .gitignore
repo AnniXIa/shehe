@@ -1,0 +1,17 @@
+# Ignore file
+*.mp4
+*.png
+*.swf
+
+# Distribution / packaging
+ExamineSystem/images/
+
+# ssh key file
+id_rsa
+
+# Pycharm settings
+*/.idea/
+
+# linux editor temp file
+*~
+
