@@ -1,0 +1,155 @@
+html{
+    overflow: hidden;
+    font-family: "微软雅黑";
+    /*font-family: Aldhabi;*/
+}
+body{
+    margin: 0 auto;
+    padding: 0;
+    background-size: cover;
+    text-align: center;
+}
+.batop{
+    width: 100%;
+    height: 1500px;
+}
+.bgtitle{
+    color:#ffaf15;
+    font-size: 30px;
+    display: block;
+}
+.bgtop{
+    width: 100%;
+    height: 23%;
+    background-color: dimgrey;
+}
+.container{
+    position: absolute;
+    left: 51.5%;
+    top:435px;
+    width: 315px;
+    height: 360px;
+    margin-left: -180px;
+    margin-top: -150px;
+    box-shadow: -1px 10px 28px -15px #8d8d8d;
+    background-color: white;
+    border-radius: 5px;
+}
+.login{
+    width: 265px;
+    height: 260px;
+    margin:0 20px;
+    border-radius: 4px;
+    padding-top: 20px;
+    text-align: center;
+}
+.t1{
+    font-family: 微软雅黑;
+    font-size: 16px;
+    color: #ffaf15;
+    margin: 0 0 20px 0;
+}
+.borders{
+    display: block;
+    width: 35px;
+    height: 3px;
+    background-color: #ffaf15;
+    margin: 10px 117px;
+}
+.user,.pass{
+    width: 100%;
+    height: 35px;
+    margin-left: 2px;
+    margin-top: 20px;
+    border: 1px solid #c6c6c6;
+    border-radius: 2px;
+}
+.user img,.pass img{
+    margin:13px 10px 6px 10px;
+    float: left;
+}
+.userimg{
+    background: url('../images/用户名.png');
+}
+.pwdimg{
+    background: url('../images/密码.png');
+}
+.pwdimg, .userimg, .focuser, .focpwd{
+    width: 15px;
+    height: 15px;
+    margin:10px 10px 6px 10px;
+    float: left;
+    background-size: 15px;
+}
+.p1{
+    height: 20px;
+    margin-top: 8px;
+    width: 1px;
+    border-left: 1px solid #c6c6c6;
+    float: left;
+}
+.user input,.pass input{
+    height: 20px;
+    margin-left: 6px;
+    margin-top: 8px;
+    float: left;
+    border: 0;
+    line-height: 20px;
+    width: 215px;
+}
+.remember{
+    margin-top: 20px;
+    margin-left: -2px;
+    float: left;
+    font-size: 13px;
+    color: #C6C6C6;
+}
+.loginBtn{
+    margin-top: 60px;
+    margin-left: -10px;
+}
+.loginBtn .loginbnt{
+    display: inline-block;
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    margin:40px 0 0 10px;
+    cursor: pointer;
+    background: url("../images/登录.png")no-repeat;
+    background-size: 275px 35px;
+}
+.loginbnt:hover{
+    background: url("../images/登录选中.png")no-repeat;
+    background-size: 275px 35px;
+}
+.about{
+    margin-top: 25px;
+    font-size: 12px;
+    color: #c6c6c6;
+    margin-left:10px;
+}
+input{
+    outline: none;
+}
+input[placeholder]{
+    font-family: "微软雅黑";
+}
+.rmpwd{
+    display: inline-block;
+    margin-left: 135px;
+    font-size: 13px;
+    color: #c6c6c6;
+    cursor: pointer;
+}
+.checkbox{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border: 1px solid;
+    margin: 0 5px;
+}
+.checked{
+    background:url('../images/对号.png');
+    background-size:15px 15px
+}
